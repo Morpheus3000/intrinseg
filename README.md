@@ -8,24 +8,24 @@ The scripts have been tested on PyTorch 1.0.
 
 ## Semantic Labels
 
-0 - void
-1 - ground
-2 - grass
-3 - dirt
-4 - gravel
-5 - mulch
-6 - pebble
-7 - woodchip
-8 - pavement
-11 - box
-20 - topiary
-30 - rose
-102 - tree
-103 - fence
-104 - step
-105 - flowerpot
-106 - stone
-223 - sky
+0.  void
+1.  ground
+2.  grass
+3.  dirt
+4.  gravel
+5.  mulch
+6.  pebble
+7.  woodchip
+8.  pavement
+11. box
+20. topiary
+30. rose
+102. tree
+103. fence
+104. step
+105. flowerpot
+106. stone
+223. sky
 
 ## Requirements
 The code has been written for Python 3. The requirements are as follows:
