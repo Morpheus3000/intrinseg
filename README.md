@@ -52,18 +52,20 @@ The script takes the following arguments:\
 
 Here, the expected folder structure is as follows:\
 
-<Download Location>\
-├── direct\_intrinsics\_sn.py\
-├── experiment\
-│   └── synthetic\_trained\
-│       ├── checkpoints\
-│       │   └── final.checkpoint\
-│       └── model.weights\
-├── infer.py\
-├── README.md\
-├── requirements.txt\
-├── test.png\
-└── utils.py\
+```bash
+<Download Location>
+├── direct\_intrinsics\_sn.py
+├── experiment
+│   └── synthetic\_trained
+│       ├── checkpoints
+│       │   └── final.checkpoint
+│       └── model.weights
+├── infer.py
+├── README.md
+├── requirements.txt
+├── test.png
+└── utils.py
+```
 
 Run the script as follows:
 ```python
