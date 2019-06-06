@@ -43,11 +43,17 @@ conda install tqdm pytorch torchvision cudatoolkit=10.0 -c pytorch
 ## Inference
 
 The script takes the following arguments:
+
     --_file_ : A folder or the target file for the decomposition. If it is a folder, then the script will look for png files in the folder. However it is not recursive and will only look for the files on the top level. The number of found files will also be reported. **This is a required argument.**
+
     --_name_ : Name of the experiment. This is combined-weighted-2 for the provided model (as shown in the above structure). As a rule of thumb, this is folder name above the checkpoints folder. **This is a required argument.**
+
     --_model_ : This is the model store location. This is the folder above the experiment folder in the model provided, so the <Local Model Store location> in the structure above. **This is a required argument.**
+
     --_gpu_ : This is the ID of the GPU on your machine. Default value is 0, which is the first GPU in the system. The model requires about 1GB of video memory for the inference.
+
     --_results_ : The folder name for the result storage location. Default is _results_ folder in the same directory as the _infer.py_ file.
+
 
 Here, the expected folder structure is as follows:
 
@@ -70,7 +76,7 @@ Run the script as follows:
 ```
 
 # real world garden semantics
-As done in the paper, the model can be fine-tuned to generalize the semantic segmentation results on the real world gardens by using the dataset provided [at](http://trimbot2020.webhosting.rug.nl/events/3drms/challenge/)
+As done in the paper, the model can be fine-tuned to generalize the semantic segmentation results on the real world gardens by using the dataset provided [here](http://trimbot2020.webhosting.rug.nl/events/3drms/challenge/).
 
 For further modifications, the script has been commented, along with verbose print statements. So modifications should be trivial.
 
