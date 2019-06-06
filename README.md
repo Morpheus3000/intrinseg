@@ -7,7 +7,7 @@ The model is based on the architecture of 'Learning Non-Lambertian Object Intrin
 The scripts have been tested on PyTorch 1.0.
 
 ## Semantic Labels
-
+```
 0.  void
 1.  ground
 2.  grass
@@ -26,6 +26,7 @@ The scripts have been tested on PyTorch 1.0.
 105. flowerpot
 106. stone
 223. sky
+```
 
 ## Requirements
 The code has been written for Python 3. The requirements are as follows:
@@ -81,10 +82,11 @@ For further modifications, the script has been commented, along with verbose pri
 
 If you use this work, please cite our paper like follows:
 
+```
 @inproceedings{Baslamisli2018ECCV,
  author = {A. ~S. Baslamisli and T. ~T. Groenestege and P. Das and H. ~A. Le and S. Karaoglu and T. Gevers},
  title = {Joint Learning of Intrinsic Images and Semantic Segmentation},
  booktitle = {European Conference on Computer Vision},
  year = 2018
 }
-
+```
