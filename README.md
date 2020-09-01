@@ -32,9 +32,7 @@ The scripts have been tested on PyTorch 1.0.
 The code has been written for Python 3. The requirements are as follows:
 
     * Pytorch
-    
     * Pillow
-    
     * TQDM (really versatile progressbar library)
     
     
