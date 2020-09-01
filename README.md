@@ -30,9 +30,13 @@ The scripts have been tested on PyTorch 1.0.
 
 ## Requirements
 The code has been written for Python 3. The requirements are as follows:
+
     * Pytorch
+    
     * Pillow
+    
     * TQDM (really versatile progressbar library)
+    
     
 We highly recommend using the Anaconda distribution for easy installing all the required libraries. Creating a separte environment for this is also recommended.
 You can install the requirements using the requirements.txt file. Due to how conda packages are distributed, some of the packages need a specific channel to be specified, in order to have the latest version of the package. Unfortunately, there is no way of doing it using the requirements.txt, so they need to be manually fed in like follows:
